@@ -1,0 +1,12 @@
+a {
+    color: white;
+  }
+
+  #contact-me {
+    margin: 0;
+    text-align: left;
+  }
+
+  #contact-me p {
+    font-size: 60px;
+  }

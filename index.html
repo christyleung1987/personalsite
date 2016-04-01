@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Christy's Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/personalsite.css" rel="stylesheet" type="text/css"/>
+    <script src="js/personalsite.js"></script>
+
+  </head>
+  <body>
+    <div id = "startenter">
+      <div class = "startclick">
+        <!-- <p>CHRISTY LEUNG</p><br> -->
+        <a href="about.html">
+          <img src="assets/images/hex.png">
+        </a>
+    </div>
+    <div class = "fullpage-bg">
+      <video  class = "videoPlayer" preload="auto" autoplay="true" loop="loop" muted="" volume="0">
+            <source src="assets/videos/free_12.mp4" type="video/mp4"></a>
+      </video>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+    <script>
+      var slideshow = $('#portfolio-pic .ui.shape').shape();
+      $('#portfolio-pic .back-button').click(function() {
+        slideshow.shape('flip left');
+      });
+      $('#portfolio-pic .next-button').click(function() {
+        slideshow.shape('flip right');
+      });
+    </script>
+  </body>
+</html>
